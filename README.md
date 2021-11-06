@@ -67,30 +67,30 @@ In this starter template, we've opted to use yarn workspaces. We'll list some ba
 ## How and where do I manage packages with yarn workspaces? 📦 <a name="package-management"></a>
 
 This starter monorepo has two types of workspaces:
-- `/apps/` for all expo & next.js versions of your apps
-- `/packages/` for all shared code used in multiple apps
+- `/apps/*` for all expo & next.js versions of your apps
+- `/packages/*` for all shared dependencies / library code used in multiple apps
 
 #### Keep your apps seperate with `/apps/*` workspaces:
 
 For every app you're building in this monorepo, you'll need a few folders:
 
-- `/apps/my-app` - Where most of your `my-app` UI, logic and Screens will live. 📦 `package.json` without deps.
-- `/apps/my-app-next` - Entry for web where only next.js related config/setup for `my-app` should live. 📦 `package.json` should list only next.js related dependencies & polyfills.
-- `/apps/my-app-expo` - Entry for mobile where only expo related config/setup for `my-app` should live. 📦 `package.json` should list all react(-native) and non next.js related dependencies.
+- `/apps/app-project` - Where most of your `app-project` UI, logic and Screens will live. 📦 `package.json` shouldn't have any dependencies.
+- `/apps/app-project-next` - Entry for web where only next.js related config/setup for `app-project` should live. 📦 `package.json` should list only next.js related dependencies & polyfills.
+- `/apps/app-project-expo` - Entry for mobile where only expo related config/setup for `app-project` should live. 📦 `package.json` should list all react(-native) and non next.js related dependencies.
 
 In each of these folders own `package.json` file, a `name` property should be specified to identify that workspace. This name can then be referenced during installs via e.g.
 
 ```bash
-yarn workspace @project/my-app-next add next-images
+yarn workspace @project/app-project-next add next-images
 ```
 
 ```bash
-yarn workspace @project/my-app-expo add moti
+yarn workspace @project/app-project-expo add moti
 ```
 
 > It's also advised to see app workspaces as fully seperate from other apps:
 
-> For example, `/apps/my-app` should not import or reference anything from `/apps/some-other-app`. If you do need to embed a certain screen or component from one app in another, it's best to extract it to its own shared library workspace instead 👇
+> For example, `/apps/app-project` should not import or reference anything from `/apps/some-other-app`. If you do need to embed a certain screen or component from one app in another, it's best to extract it to its own shared library workspace instead 👇
 
 #### Write shared library code in `/packages/*` workspaces:
 
@@ -228,6 +228,7 @@ Next.js also has a bunch of examples you may consider:
 - [next/examples/with-expo](https://github.com/vercel/next.js/tree/canary/examples/with-expo)
 
 #### 📚 Other relevant docs:
+- [Yan Workspaces Docs](https://classic.yarnpkg.com/lang/en/docs/workspaces/)
 - [Expo Docs](https://docs.expo.dev/)
 - [Next.js Docs](https://nextjs.org/docs/getting-started)
 - [React Native Docs](https://reactnative.dev/docs/getting-started)
