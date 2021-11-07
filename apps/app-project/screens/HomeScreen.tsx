@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 const HomeScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>Open uppp apps/app-project/screens/HomeScreen.tsx to start working on your app 🎉</Text>
+            <Text>Open up apps/app-project/screens/HomeScreen.tsx to start working on your app 🎉</Text>
             <StatusBar style="auto" />
         </View>
     );

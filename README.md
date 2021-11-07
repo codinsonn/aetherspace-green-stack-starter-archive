@@ -10,7 +10,7 @@ Run on web: `yarn dev-web`
 
 Run on mobile: `yarn dev-mobile`
 
-Run on desktop: `yarn dev-desktop`
+Run on desktop: `yarn dev-desktop` (⚠️ WIP, coming soon)
 
 ### Table of contents
 💚 - [What is the GREEN stack?](#what-is-the-green-stack)  
@@ -138,6 +138,8 @@ The starter repo does come with some opinionated extra packages and abilities th
 - Add illustrations or icons with `react-native-svg`
 - Link pages and screens cross platform with `<AetherLink>`
 - Build mobile release previews for Expo Go when pushing to branches with Github Actions.
+- Deploy to vercel with `yarn deploy` or `vercel --prod --no-clipboard` ([view live](https://aetherspace-green-stack-starter-monorepo.vercel.app/))
+- [Deploy to netlify](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/) ([view live](https://aetherspace-green-stack-starter-monorepo.netlify.app/))
 
 If you'd like to continue learning about Aetherspace and the GREEN stack, there are more detailed guides and tips in `CODEGEN.md`, `STYLING.md` & `ANIMATING.md`
 
