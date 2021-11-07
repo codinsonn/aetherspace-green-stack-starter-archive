@@ -13,6 +13,7 @@
     "app-project-start": "yarn workspace app-project-expo run start",
     "app-project-web": "yarn workspace app-project-expo run web",
     "app-project-ios": "yarn workspace app-project-expo run ios",
-    "app-project-android": "yarn workspace app-project-expo run android"
+    "app-project-android": "yarn workspace app-project-expo run android",
+    "app-project-uncache": "yarn workspace app-project-expo run uncache"
   }
 }
