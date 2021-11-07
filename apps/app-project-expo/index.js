@@ -2,6 +2,7 @@
 // import 'expo-dev-client';
 // import 'expo-dev-launcher';
 import 'expo/build/Expo.fx';
+import 'expo/build/Expo.fx.web';
 import { activateKeepAwake } from 'expo-keep-awake';
 // -i- Based on: ../node_modules/expo/AppEntry.js
 import { registerRootComponent } from 'expo';

@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "dev-expo": "yarn app-project-start",
+    "app-project-expo": "yarn workspace app-project-expo",
     "app-project-start": "yarn workspace app-project-expo run start",
     "app-project-web": "yarn workspace app-project-expo run web",
     "app-project-ios": "yarn workspace app-project-expo run ios",
