@@ -2,7 +2,7 @@
   "compilerOptions": {
     "strict": true,
   },
-  "include": ["**/*.ts", "**/*.tsx", "../app-project/**/*.ts", "../app-project/**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"],
   "extends": "expo/tsconfig.base",
 }

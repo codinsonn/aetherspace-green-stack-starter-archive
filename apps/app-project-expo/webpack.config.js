@@ -15,7 +15,6 @@ const createAetherWebpackConfig = async function (env, argv) {
     },
     argv,
   );
-  console.log(JSON.stringify(config, null, 4));
   return config;
 };
 
