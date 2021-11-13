@@ -147,10 +147,15 @@ If you'd like to continue learning about Aetherspace and the GREEN stack, there 
 
 Whether you're a startup or established company, having both web and mobile apps is a great competitive advantage. There are many stories of market leaders suddenly being overtaken because the competition were able to move faster or had more platforms their solution was available on.
 
-The real value of the GREEN stack lies in that it provides budgetting flexibility, while allowing teams to remain small, yet move fast when building new features.
+The real value of the GREEN stack lies in that it provides budgetting flexibility, while allowing teams to remain small, yet move fast when building new features. This flexibility can then more easily be reflected in either or all of these benefits:
+
+- More 💰 for the entire team
+- More 🕗 for less binding deadlines or more expirimentation
+- More budget to market the product (self or client)
+- ...
 
 <details>
-<summary>Show Comparison</summary>
+<summary>Show full 🕗🕗 to 💰💰💰 Comparison</summary>
 
 ---
 
