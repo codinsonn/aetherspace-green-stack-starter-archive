@@ -4,8 +4,11 @@ const withPlugins = require('next-compose-plugins');
 const withFonts = require('next-fonts');
 // -!- Add modules that need to be transpiled, ** including used workspaces **
 const withTM = require('next-transpile-modules')([
+    // - Workspaces -
     'aetherspace',
     'app-project',
+    // - Modules -
+    'expo-next-react-navigation',
 ]);
 
 /* --- Build Next Config ----------------------------------------------------------------------- */
