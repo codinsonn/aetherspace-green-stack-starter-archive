@@ -20,8 +20,8 @@ const AppNavigator = () => {
           options={{ title: 'Home', headerShown: false }}
         />
         <Stack.Screen
-          name="/author"
-          navigationKey="/author"
+          name="author"
+          navigationKey="author"
           component={AuthorScreen}
           options={{ title: 'About the Author', headerShown: false }}
         />
@@ -34,7 +34,6 @@ const AppNavigator = () => {
 
 const App = () => {
   return <AppNavigator />
-  // return <HomeScreen />;
 };
 
 /* --- Exports --------------------------------------------------------------------------------- */

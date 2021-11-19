@@ -27,7 +27,7 @@ const HomeScreen = () => {
             <Text style={{ color: 'grey', fontSize: 10, paddingTop: 15, textAlign: 'center' }}>
                 (Tap below to test navigation)
             </Text>
-            <Link style={{ margin: 20 }} routeName="/author">{'{ ...💚 }'}</Link>
+            <Link style={{ margin: 20 }} routeName="author">{'{ ...💚 }'}</Link>
         </View>
     );
 };
