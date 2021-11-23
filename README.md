@@ -1,4 +1,4 @@
-# Cross Platform React apps - GREEN stack starter template
+# Cross Platform React apps - Make ship happen 🚀
 
 <p>
   <!-- Next.js -->
@@ -27,7 +27,7 @@
   </a>
 </p>
 
-Use this repo as a starter template for all your full-stack cross platform app development needs {...💚} Build for Web, PWA, Static, SSR, iOS, Android, Mac, Linux, Windows, REST and/or GraphQL all in one 👇
+> This project was bootstrapped with the [GREEN stack starter template](https://github.com/codinsonn/aetherspace-green-stack-starter-monorepo), the repo setup for all your full-stack cross platform app development needs {...💚} Enabling the project to be built for Web, PWA, Static, SSR, iOS, Android, Mac, Linux, Windows, REST and GraphQL all at once 👇
 
 ### Getting Started ⚡️
 
@@ -39,12 +39,21 @@ Run on mobile: `yarn dev-mobile`
 
 Run on desktop: `yarn dev-desktop` (⚠️ WIP, coming soon)
 
+---
+
+<details>
+<summary><b>{...💚} GREEN stack & Template Benefits? 🚀</b></summary>
+
+---
+
+# Cross Platform React apps - GREEN stack starter template
+
 ### Table of contents
 💚 - [What is the GREEN stack?](#what-is-the-green-stack)  
-🚀 - [What is Aetherspace?](#what-is-aetherspace)  
 🤖 - [Why start with a monorepo?](#why-monorepo)  
 📁 - [File structure and installing new packages.](#package-management)  
 👾 - [Benefits and next steps.](#benefits-next-steps)  
+💼 - [Why this makes sense from a business perspective](#why-this-makes-sense-from-a-business-perspective)  
 🤷‍♂️ - [When *not* to use the GREEN stack.](#when-not-to-use-green-stack)  
 💡 - [Inspirations and alternatives.](#inspirations-alternatives)  
 
@@ -63,24 +72,6 @@ The core idea this tech stack enables you to achieve boils down to writing your 
 ### It allows you to move fast, save time and deliver more 🎉
 
 > Think of it as Unity for React Apps. Just like Unity aims to make cross console game development a lot easier for (indie) game devs, the GREEN stack aims to do the same for cross-platform app development.
-
-## Ok, what is 'Aetherspace' then? 🚀 <a name="what-is-aetherspace"></a>
-
-Aetherspace is an opinionated framework I've made that fills in the gaps of working and building with the GREEN stack:
-
-- How should I handle responsive design?
-- How do I avoid layout shift when react-native styling does not support media queries or classnames?
-- What's the best way to style and animate my UI elements for both web and mobile?
-
-Just to name a few.
-
-While the stack itself is very powerfull, figuring out how to get set up and do certain things can be frustrating and time consuming. To save you time figuring it all out on your own, *Aetherspace* contains a bunch of packages, utils and best-practices to set you up for a free and easy ride to cross-platform success.
-
-> Aetherspace is also fully optional. Usage of the UI primitives, React hooks and JS utils provided by `packages/aetherspace` is recommended but not required.
-
-> Provided you throw out the examples and edit some helper scripts in the `package.json` files, you could even delete the package entirely and still be left with a great GREEN stack starter.
-
-More on Aetherspace in the **[👾 Benefits and Next steps](#benefits-next-steps)** section or `AETHERSPACE.md` and `CODEGEN.md`.
 
 ## But why start with a monorepo? 🤖 <a name="why-monorepo"></a>
 
@@ -182,30 +173,26 @@ yarn workspace component-library add -D @types/react
 
 However, unless you will be publishing the package to NPM, it may be best to just install any dependencies in the consuming apps' `/apps/{app-name}-next` or `/apps/{app-name}-expo` workspace instead.
 
-> A good example of a library package usable by multiple app workspaces in this monorepo is the 
-`/packages/aetherspace` workspace. It contains UI primitives like `AetherView`, `AetherImage` & `AetherLink` that are small wrappers for & recommended over react-native's own `View`, `Text` & `Image` components.
-
 </details>
 
 ## 👾 Stack and Template benefits + Next steps 👾 <a name="benefits-next-steps"></a>
 
 If you've read the sections above, It's likely the **ease** of use, **time saving** capabilities and **scalability** of this stack & template are clear.
 
-The starter repo comes with some opinionated extra packages and abilities.  
-Here's a list of what you can start doing out of the box:
+The starter repo comes with, or recommends installing, some opinionated extra packages.  
+Here's a list of what you can start doing next:
 
-- Link pages and screens cross platform with `expo-next-react-navigation` or `<AetherLink>`
-- Use tailwind to style UI responsively on web / mobile with `<AetherView tw="sm:px-2">` / `tailwind-rn`
-- Animate UI elements with `<AetherView.Animated>` / `react-native-reanimated` / `moti`
+- Link pages and screens cross platform with `expo-next-react-navigation`
+- Use tailwind to style UI responsively on web / mobile with `tailwind-rn`
+- Animate UI elements with `react-native-reanimated` / `moti`
 - Add illustrations or icons with `react-native-svg`
-- Bring the power of GraphQL to JSON or REST apis with `aetherResolver()` and Schemas.
 - Add auth with [AuthSession](https://docs.expo.dev/versions/latest/sdk/auth-session/) ([Expo Examples](https://docs.expo.dev/guides/authentication/))
 - Document your components and APIs with Storybook.
 - Deploy to vercel with `yarn deploy` or `vercel --prod --no-clipboard` ([view live](https://aetherspace-green-stack-starter-monorepo.vercel.app/))
 - Deploy to netlify [via this guide](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/) ([view live](https://aetherspace-green-stack-starter-monorepo.netlify.app/))
 
-If you'd like to continue learning about Aetherspace and the GREEN stack, there are more detailed guides, tips and best-practices in:
-- `AETHERSPACE.md`, `CODEGEN.md`, `NAVIGATION.md` & `API.md` (Aetherspace & Codegen)  
+If you'd like to continue learning about the GREEN stack, there are more detailed guides, tips and best-practices in:
+- `AETHERSPACE.md`, `NAVIGATION.md` & `API.md` (Aetherspace & Codegen)  
 - `STYLING.md`, `ANIMATING.md` & `DOCUMENTING.md` (GREEN stack How-tos)
 
 ## 💼 Why this makes sense from a business perspective 💸 <a name="why-this-makes-sense-from-a-business-perspective"></a>
@@ -313,7 +300,6 @@ Next.js also has a bunch of examples you may consider:
 - [React-Native-Web Docs](https://necolas.github.io/react-native-web/docs/)
 - [Apollo GraphQL Docs](https://www.apollographql.com/docs/)
 - [Reanimated Docs](https://docs.swmansion.com/react-native-reanimated/docs)
-- [Moti Docs](https://moti.fyi/)
 
 ---
 
@@ -328,3 +314,7 @@ Next.js also has a bunch of examples you may consider:
 📸 Sharing JS, React and UI/UX tips on [Instagram](https://www.instagram.com/codinsonn.dev)
 
 🤷‍♂️ Creating and selling dev stickers/merch on [Redbubble](https://www.redbubble.com/people/AetherspaceOne/shop)
+
+</details>
+
+---

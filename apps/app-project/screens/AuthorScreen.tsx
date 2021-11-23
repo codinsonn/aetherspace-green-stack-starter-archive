@@ -1,5 +1,4 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Link, useRouting } from 'expo-next-react-navigation';
 
@@ -21,7 +20,7 @@ const styles = StyleSheet.create({
     }
 });
 
-/* --- <AuthorScreen/> --------------------------------------------------------------------------- */
+/* --- <AuthorScreen/> ------------------------------------------------------------------------- */
 
 const AuthorScreen = () => {
     const { goBack } = useRouting();

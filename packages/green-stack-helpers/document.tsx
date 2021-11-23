@@ -56,7 +56,7 @@ export const getInitialProps = (ctx: DocumentContext) => {
     const { getStyleElement } = AppRegistry.getApplication('Main');
     // Render to HTML & collect styles
     const page = ctx.renderPage();
-    // Aetherspace SSR Media Queries
+    // GREEN stack SSR Media Queries
     const aetherQueries = getInjectables();
     // List all styles
     const styles = (

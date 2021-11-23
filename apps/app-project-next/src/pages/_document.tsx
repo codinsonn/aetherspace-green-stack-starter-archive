@@ -1,1 +1,1 @@
-export { default } from 'aetherspace/document';
+export { default } from 'green-stack-helpers/document';
