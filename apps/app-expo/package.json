@@ -1,5 +1,5 @@
 {
-  "name": "app-project-expo",
+  "name": "app-expo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "dependencies": {
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/native-stack": "^6.2.5",
-    "app-project": "*",
+    "app": "*",
     "axios": "^0.24.0",
     "expo": "~43.0.0",
     "expo-next-react-navigation": "^2.0.2",

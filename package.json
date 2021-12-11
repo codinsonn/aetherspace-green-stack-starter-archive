@@ -10,18 +10,21 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "cd apps/app-project-next && yarn build",
+    "build": "cd apps/app-next && yarn build",
     "deploy": "vercel --prod --no-clipboard",
-    "dev-web": "yarn app-project-dev",
-    "dev-mobile": "yarn app-project-start",
-    "app-project-next": "yarn workspace app-project-next",
-    "app-project-expo": "yarn workspace app-project-expo",
-    "app-project-dev": "yarn workspace app-project-next run dev",
-    "app-project-start": "yarn workspace app-project-expo run start",
-    "app-project-pwa": "yarn workspace app-project-expo run web",
-    "app-project-ios": "yarn workspace app-project-expo run ios",
-    "app-project-android": "yarn workspace app-project-expo run android",
-    "app-project-web": "yarn app-project-dev",
-    "app-project-uncache": "yarn workspace app-project-expo run uncache"
+    "dev-web": "yarn app-dev",
+    "dev-mobile": "concurrently \"yarn dev-web\" \"yarn app-next run dev-health-check && yarn app-pwa\"",
+    "app-next": "yarn workspace app-next",
+    "app-expo": "yarn workspace app-expo",
+    "app-dev": "yarn workspace app-next run dev",
+    "app-start": "yarn workspace app-expo run start",
+    "app-pwa": "yarn workspace app-expo run web",
+    "app-ios": "yarn workspace app-expo run ios",
+    "app-android": "yarn workspace app-expo run android",
+    "app-web": "yarn app-dev",
+    "app-uncache": "yarn workspace app-expo run uncache"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0"
   }
 }

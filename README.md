@@ -137,26 +137,26 @@ This starter monorepo has two types of workspaces:
 
 For every app you're building in this monorepo, you'll need a few folders:
 
-- `/apps/app-project` - Where most of your app's UI, logic and Screens will live.
+- `/apps/app` - Where most of your app's UI, logic and Screens will live.
     Shouldn't have any dependencies.
-- `/apps/app-project-next` - Entry for web where only next.js related config/setup for an app should live.
+- `/apps/app-next` - Entry for web where only next.js related config/setup for an app should live.
     Should list only next.js related dependencies & polyfills.
-- `/apps/app-project-expo` - Entry for mobile where only expo related config/setup for an app should live.
+- `/apps/app-expo` - Entry for mobile where only expo related config/setup for an app should live.
     Should list all react(-native) and non next.js related dependencies.
 
 In each of these folders own `package.json` file, a `name` property should be specified to identify that workspace. This name can then be referenced during installs via e.g.
 
 ```bash
-yarn workspace app-project-next add next-images
+yarn workspace app-next add next-images
 ```
 
 ```bash
-yarn workspace app-project-expo add moti
+yarn workspace app-expo add moti
 ```
 
 > It's also advised to see app workspaces as fully seperate from other apps:
 
-> For example, `/apps/app-project` should not import or reference anything from `/apps/some-other-app`. If you do need to embed a certain screen or component from one app in another, it's best to extract it to its own shared library workspace instead (toggle below for info 👇)
+> For example, `/apps/app` should not import or reference anything from `/apps/some-other-app`. If you do need to embed a certain screen or component from one app in another, it's best to extract it to its own shared library workspace instead (toggle below for info 👇)
 
 <details>
 <summary>💡 `/packages/*` workspaces for e.g. component libraries</summary>
