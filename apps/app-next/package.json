@@ -9,7 +9,7 @@
         "deploy": "yarn --cwd ../../ deploy"
     },
     "dependencies": {
-        "green-stack-helpers": "*",
+        "aetherspace-lite": "*",
         "apollo-server-micro": "^3.5.0",
         "app": "*",
         "graphql": "^16.0.1",

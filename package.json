@@ -13,7 +13,7 @@
     "build": "cd apps/app-next && yarn build",
     "deploy": "vercel --prod --no-clipboard",
     "dev-web": "yarn app-dev",
-    "dev-mobile": "concurrently \"yarn dev-web\" \"yarn app-next run dev-health-check && yarn app-pwa\"",
+    "dev-mobile": "concurrently \"yarn dev-web\" \"yarn app-next run dev-health-check && yarn app-start\"",
     "app-next": "yarn workspace app-next",
     "app-expo": "yarn workspace app-expo",
     "app-dev": "yarn workspace app-next run dev",

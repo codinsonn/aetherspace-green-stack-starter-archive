@@ -5,7 +5,7 @@ const withFonts = require('next-fonts');
 // -!- Add modules that need to be transpiled, ** including used workspaces **
 const withTM = require('next-transpile-modules')([
     // - Workspaces -
-    'green-stack-helpers',
+    'aetherspace-lite',
     'app',
     // - Modules -
     'expo-next-react-navigation',
