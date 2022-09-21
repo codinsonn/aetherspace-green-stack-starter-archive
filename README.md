@@ -1,33 +1,33 @@
 # Cross Platform React apps - Make ship happen 🚀
 
 <p>
-  <!-- Next.js -->
-  <a href="https://aetherspace-green-stack-starter-monorepo.vercel.app/">
+  <a href="https://aetherspace-green-stack-starter.vercel.app/">
     <img alt="Supports Next.js" longdesc="Supports Next.js" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />
   </a>
-  <!-- Vercel -->
-  <a href="https://aetherspace-green-stack-starter-monorepo.vercel.app/">
+  <a href="https://aetherspace-green-stack-starter.vercel.app/">
     <img alt="Supports Vercel Deployments" longdesc="Supports Vercel Deployments" src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  <!-- Netlify -->
-  <a href="https://aetherspace-green-stack-starter-monorepo.netlify.app/">
+  <a href="https://aetherspace-green-stack-starter.netlify.app/">
     <img alt="Supports Netlify Deployments" longdesc="Supports Netlify Deployments" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" />
   </a>
-  <!-- Expo -->
-  <a href="https://itunes.apple.com/app/apple-store/id982107779">
+  <a href="https://qr.expo.dev/expo-go?owner=thorrstevens&slug=aetherspace-starter-app&releaseChannel=starter-preview-main&host=exp.host">
     <img alt="Test in Expo GO" longdesc="Test in Expo GO" src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37" />
   </a>
-  <!-- iOS -->
-  <a href="https://itunes.apple.com/app/apple-store/id982107779">
+  <a href="https://qr.expo.dev/expo-go?owner=thorrstevens&slug=aetherspace-starter-app&releaseChannel=starter-preview-main&host=exp.host">
     <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=for-the-badge&logo=APPLE&labelColor=999999&logoColor=fff" />
   </a>
-  <!-- Android -->
-  <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample">
+  <a href="https://qr.expo.dev/expo-go?owner=thorrstevens&slug=aetherspace-starter-app&releaseChannel=starter-preview-main&host=exp.host">
     <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=for-the-badge&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
+  </a>
+  <a href="https://main--62c9a236ee16e6611d719e94.chromatic.com/?path=/story/readme-md--page">
+    <img alt="Docs with Storybook" longdesc="Documentated with Storybook" src="https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=fff" />
   </a>
 </p>
 
-> This project was bootstrapped with the [GREEN stack starter template](https://github.com/codinsonn/aetherspace-green-stack-starter-monorepo), the repo setup for all your full-stack cross platform app development needs {...💚} Enabling the project to be built for Web, PWA, Static, SSR, iOS, Android, Mac, Linux, Windows, REST and GraphQL all at once 👇
+> This project was bootstrapped with the ***unsupported / legacy version*** of the [GREEN stack starter template](https://github.com/sponsors/codinsonn), the repo setup for all your full-stack cross platform app development needs {...💚} Enabling the project to be built for Web, PWA, Static, SSR, iOS, Android, Mac, Linux, Windows, REST and GraphQL all at once 👇
+
+> This repo is archived / unsupported and will no longer recieve updates.  
+> ***For a feature complete version 👉 [Aetherspace/green-stack-starter](https://github.com/sponsors/codinsonn)***
 
 ### Getting Started ⚡️
 
